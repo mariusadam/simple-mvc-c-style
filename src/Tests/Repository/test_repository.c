@@ -12,7 +12,7 @@
 
 void test_repository_create_destroy() {
 	//Normal case
-	Repository* repo = repository_init("Files//test_cheltuieli.txt");
+	Repository* repo = repository_init("Files/test_cheltuieli.txt");
 	repository_delete_all(repo);
 	assert(repository_get_size(repo) == 0);
 

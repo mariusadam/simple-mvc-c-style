@@ -1,9 +1,9 @@
-/*
-* repository.c
-*
-*  Created on: 2 mar. 2016
-*      Author: marius
-*/
+/**
+ * repository.c
+ *
+ *  Created on: 2 mar. 2016
+ *      Author: marius
+ */
 
 #include "repository.h"
 

@@ -157,7 +157,7 @@ void vector_sort(Vector* this, int (*cmp)(Element, Element), int reversed){
 		for(i = 0; i < len - 1; i++){
 			Element *x = &(this->array[i]);
 			Element *y = &(this->array[i + 1]);
-			if(!cmp(*x, *y) != reversed){
+			if((!cmp(*x, *y)) != reversed){
 				swap(x, y);
 				done = 0;
 			}

@@ -1,8 +1,6 @@
 #ifndef UTILS_STACK_STACK_H
 #define UTILS_STACK_STACK_H
 
-#include "../../leak.h"
-
 typedef void* Element;
 typedef void(*destructor)(Element);
 

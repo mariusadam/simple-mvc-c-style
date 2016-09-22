@@ -8,7 +8,6 @@
 #ifndef UTILS_VECTOR_VECTOR_H_
 #define UTILS_VECTOR_VECTOR_H_
 
-#include "..\..\leak.h"
 #include <stdlib.h>
 
 typedef void* Element;

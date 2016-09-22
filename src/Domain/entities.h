@@ -8,7 +8,6 @@
 #ifndef DOMAIN_ENTITIES_H_
 #define DOMAIN_ENTITIES_H_
 
-#include "../leak.h"
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*Interface of entity Cheltuiala*/
 typedef struct {

@@ -7,12 +7,7 @@ Copyright   : Do not try to copy this!
 Description : Application for managing the expenses of some apartments in C
 ============================================================================
 */
-#include "leak.h"
 #include <stdio.h>
-#include "Utils/Vector/vector.h"
-#include "Utils/Vector/iterator.h"
-#include "Utils/Stack/stack.h"
-#include "Domain/entities.h"
 #include "Tests/tests.h"
 #include "Repository/repository.h"
 #include "Ui/console.h"
@@ -27,7 +22,7 @@ void run_app() {
 	/*  
 	 * Builder for the application
 	 */
-	Repository* repo = repository_init("Files//cheltuieli.txt");
+	Repository* repo = repository_init("Files/cheltuieli.txt");
 	Validator* valid = validator_init();
 	Controller* ctr = controller_init(repo, valid);
 	Console* cons = console_init(ctr);
@@ -45,6 +40,6 @@ int main() {
 	run_tests();
 	run_app();
 	getchar();
-	_CrtDumpMemoryLeaks();
+
 	return 0;
 }

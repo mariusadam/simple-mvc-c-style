@@ -8,7 +8,7 @@
 #ifndef TESTS_REPOSITORY_TEST_REPOSITORY_H_
 #define TESTS_REPOSITORY_TEST_REPOSITORY_H_
 
-#include "..\..\Repository\repository.h"
+#include "../../Repository/repository.h"
 
 //Tests:
 void test_repository_create_destroy();

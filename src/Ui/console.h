@@ -8,7 +8,6 @@
 #ifndef UI_CONSOLE_H_
 #define UI_CONSOLE_H_
 
-#include "../leak.h"
 #include "../Controller/controller.h"
 #include "../Utils/Vector/iterator.h"
 #include <stdio.h>

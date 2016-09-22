@@ -27,17 +27,16 @@ typedef struct {
 */
 Repository* repository_init(char* file_name);
 
-/*
-* @input  : this - pointer to object of type Repository
-* @output : destroys the Repository object
-*/
+/**
+ * @param this
+ */
 void repository_destroy(Repository* this);
 
 /*
 * @input  : this - pointer to object of type Repository
 * @output : destroys the objects from the Repository
 */
-void repository_destroy_items(this);
+void repository_destroy_items(Repository* this);
 
 /*
 * @input  : this - pointer to object of type Repository

@@ -6,7 +6,6 @@
 */
 #include "controller.h"
 #include <string.h>
-//#include "../leak.h"
 
 Controller* controller_init(Repository* repo, Validator* valid) {
 	/*

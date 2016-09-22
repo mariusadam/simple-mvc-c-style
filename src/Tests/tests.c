@@ -15,7 +15,10 @@ void test_add_all(Test* this) {
 	test_add(this, &test_validator);
 }
 
-//Public
+/**
+ *
+ * @return Test*
+ */
 Test* test_init() {
 	Test *test = (Test*)malloc(sizeof(Test));
 	test->tests = vector_init(1);

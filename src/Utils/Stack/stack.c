@@ -1,4 +1,5 @@
 #include "stack.h"
+#include "malloc.h"
 
 Stack* stack_init() {
 	/*
