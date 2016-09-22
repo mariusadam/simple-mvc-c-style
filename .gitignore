@@ -38,3 +38,6 @@
 .idea/*
 
 CMakeLists.txt
+
+Files/*
+!Files/.gitkeep
